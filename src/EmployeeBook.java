@@ -4,10 +4,10 @@ public class EmployeeBook {
 
     //region Базовый
     public void printEmployeesList(){
-        for (Employee employee : employeeList) { //todo убрать комментарий у условной конструкции
-            //if (employee != null) {
+        for (Employee employee : employeeList) {
+            if (employee != null) {
             System.out.println(employee);
-            // }
+            }
         }
     }
     public double calculateTotalSalary(){
